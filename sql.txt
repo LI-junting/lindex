@@ -1,0 +1,16 @@
+-- 表结构
+CREATE TABLE navigation (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    url VARCHAR(255) NOT NULL,
+    description VARCHAR(255)
+);
+
+-- 插入数据
+INSERT INTO navigation (name, url, description) VALUES
+('Google', 'https://www.google.com', '搜索引擎'),
+('GitHub', 'https://github.com', '代码托管'),
+('Baidu', 'https://www.baidu.com', '中文搜索'),
+('Weibo', 'https://www.weibo.com', '社交媒体'),
+('Zhihu', 'https://www.zhihu.com', '知识社区'),
+('Bilibili', 'https://www.bilibili.com', '视频平台');
