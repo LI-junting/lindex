@@ -1,6 +1,6 @@
 // 导航数据（增加了 category 字段，可删减或修改）
 const navData = [
-    { name: "Google", url: "https://www.google.com", desc: "搜索引擎", category: "搜索" },
+    { name: "注塑冲公差表", url: "https://wiki.ijguo.cn/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%85%AC%E5%B7%AE%E8%A1%A8.pdf", desc: "查询相关标准", category: "标准资料" },
     { name: "Baidu", url: "https://www.baidu.com", desc: "中文搜索", category: "搜索" },
     { name: "GitHub", url: "https://github.com", desc: "代码托管", category: "开发" },
     { name: "Weibo", url: "https://www.weibo.com", desc: "社交媒体", category: "社交" },
@@ -68,3 +68,4 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
