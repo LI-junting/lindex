@@ -1,11 +1,11 @@
 // 导航数据（增加了 category 字段，可删减或修改）
 const navData = [
     { name: "注塑冲公差表", url: "https://wiki.ijguo.cn/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%85%AC%E5%B7%AE%E8%A1%A8.pdf", desc: "查询相关标准", category: "标准资料" },
-    { name: "Baidu", url: "https://www.baidu.com", desc: "中文搜索", category: "搜索" },
-    { name: "GitHub", url: "https://github.com", desc: "代码托管", category: "开发" },
-    { name: "Weibo", url: "https://www.weibo.com", desc: "社交媒体", category: "社交" },
-    { name: "Zhihu", url: "https://www.zhihu.com", desc: "知识社区", category: "社交" },
-    { name: "Bilibili", url: "https://www.bilibili.com", desc: "视频平台", category: "娱乐" }
+    { name: "标准下载", url: "https://wiki.ijguo.cn/doku.php?id=%E6%A0%87%E5%87%86%E4%B8%8B%E8%BD%BD", desc: "标准下载站点", category: "标准资料" },
+    { name: "弹簧计算", url: "http://www.leidream.com/yasuotanhuang.html", desc: "在线计算工具", category: "实用工具" },
+    { name: "色卡查询", url: "https://www.qtccolor.com/secaiku/", desc: "在线色卡工具", category: "实用工具" },
+    { name: "标准件查询", url: "https://www.164580.com/biaozhun/", desc: "标准件查询工具", category: "实用工具" },
+    { name: "百度脑图", url: "https://naotu.baidu.com/home", desc: "在线脑图工具", category: "实用工具" }
 ];
 
 // 渲染导航项
@@ -68,4 +68,5 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
