@@ -8,6 +8,15 @@ const navData = [
     { name: "Bilibili", url: "https://www.bilibili.com", desc: "视频平台" }
 ];
 
+const navData = [
+    { name: "Google", url: "https://www.google.com", desc: "搜索引擎" },
+    { name: "GitHub", url: "https://github.com", desc: "代码托管" },
+    { name: "Baidu", url: "https://www.baidu.com", desc: "中文搜索" },
+    { name: "Weibo", url: "https://www.weibo.com", desc: "社交媒体" },
+    { name: "Zhihu", url: "https://www.zhihu.com", desc: "知识社区" },
+    { name: "Bilibili", url: "https://www.bilibili.com", desc: "视频平台" }
+];
+
 // 渲染导航项
 function renderNavItems(data) {
     const navGrid = document.getElementById("navGrid");
@@ -37,4 +46,5 @@ function setupSearch() {
 
 // 初始化
 renderNavItems(navData);
+
 setupSearch();
