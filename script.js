@@ -8,7 +8,7 @@ const navData = [
     { name: "Bilibili", url: "https://www.bilibili.com", desc: "视频平台" }
 ];
 
-const navData = [
+const navData1 = [
     { name: "Google", url: "https://www.google.com", desc: "搜索引擎" },
     { name: "GitHub", url: "https://github.com", desc: "代码托管" },
     { name: "Baidu", url: "https://www.baidu.com", desc: "中文搜索" },
@@ -46,5 +46,6 @@ function setupSearch() {
 
 // 初始化
 renderNavItems(navData);
-
+renderNavItems(navData1);
 setupSearch();
+
