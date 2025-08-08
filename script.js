@@ -6,6 +6,7 @@ const navData = [
     { name: "色卡查询", url: "https://www.qtccolor.com/secaiku/", desc: "在线色卡工具", category: "实用工具" },
     { name: "标准件查询", url: "https://www.164580.com/biaozhun/", desc: "标准件查询工具", category: "实用工具" },
     { name: "百度脑图", url: "https://naotu.baidu.com/home", desc: "在线脑图工具", category: "实用工具" },
+    { name: "网址收藏", url: "https://dh.ijguo.cn/bookmarks.html", desc: "网址收藏夹", category: "实用工具" },    
     { name: "私有云盘", url: "https://pan.ijguo.cn", desc: "私有云盘", category: "网盘工具" }
 ];
 
@@ -69,6 +70,7 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
 
 
