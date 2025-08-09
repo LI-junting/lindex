@@ -9,6 +9,7 @@ const navData = [
     { name: "网址收藏", url: "https://dh.ijguo.cn/bookmarks.html", desc: "网址收藏夹", category: "实用工具" },    
     { name: "老李百科", url: "https://Wiki.ijguo.cn", desc: "电气知识百科", category: "实用工具" },   
     { name: "老李笔记", url: "https://www.ijguo.cn", desc: "技术博客", category: "实用工具" },  
+    { name: "IJGUO邮件", url: "https://mail.ijguo.com", desc: "自建邮局", category: "实用工具" },  
     { name: "私有云盘", url: "https://pan.ijguo.cn", desc: "私有云盘", category: "网盘工具" }
 ];
 
@@ -72,6 +73,7 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
 
 
