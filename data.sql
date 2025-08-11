@@ -1,0 +1,10 @@
+INSERT INTO bookmarks (url, description, tags) VALUES ('http://www.sanfengyun.com', '三丰云', '主机商;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('https://www.cloudcone.com/', '云锥', '主机商;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('https://www.youtube.com/', 'YoutuBe', '音视频;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('http://www.baidu.com', '百度', '搜索引擎;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('https://www.youtube.com/watch?v=0Zq3LUDeYTg&list=PLOC78oNK2wryq1S6i2EBca6LG9Rrybbuo&index=19', '油管', '油管;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('http://www.baidu.com', '百度', '搜索引擎;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('https://www.cloudcone.net/', '云锥', '云服务器;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('https://www.cloudcone.net/', '22', '云服务器;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('https://www.cloudcone.com/', '333', '云服务器;');
+INSERT INTO bookmarks (url, description, tags) VALUES ('https://www.youtube.com/watch?v=0Zq3LUDeYTg&list=PLOC78oNK2wryq1S6i2EBca6LG9Rrybbuo&index=19', '2344', '搜索引擎;');
