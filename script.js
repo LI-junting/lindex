@@ -10,9 +10,13 @@ const navData = [
      { name: "老李百科", url: "https://Wiki.ijguo.cn", desc: "电气知识百科", category: "实用工具" },   
      { name: "老李笔记", url: "https://www.ijguo.cn", desc: "技术博客", category: "实用工具" },  
      { name: "IJGUO邮件", url: "https://mail.ijguo.com", desc: "自建邮局", category: "实用工具" },  
-     { name: "私有云盘", url: "https://pan.ijguo.cn", desc: "私有云盘", category: "网盘工具" },
+     { name: "123云盘", url: "https://www.123pan.com", desc: "视频站点", category: "网盘工具" },
+     { name: "私有云盘", url: "https://pan.ijguo.cn", desc: "私有云盘", category: "网盘工具" },     
      { name: "YouTube", url: "https://www.youtube.com", desc: "视频站点", category: "音视频" },
-     { name: "观影 GYING", url: "https://www.gying.in/user/login/", desc: "视频站点", category: "音视频" }
+     { name: "观影 GYING", url: "https://www.gying.in/user/login/", desc: "视频站点", category: "音视频" },
+     { name: "观影 GYING", url: "https://www.gying.in/user/login/", desc: "资源站点", category: "资源下载" },
+     
+     
 ];
 
 // 渲染导航项
@@ -75,6 +79,7 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
 
 
