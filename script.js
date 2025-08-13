@@ -2,7 +2,7 @@
 const navData = [
      // 实用工具网站
      { name: "弹簧计算", url: "http://www.leidream.com/yasuotanhuang.html", desc: "在线计算工具", category: "实用工具" },
-     { name: "注塑冲公差表", url: "https://wiki.ijguo.cn/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%85%AC%E5%B7%AE%E8%A1%A8.pdf", desc: "查询相关标准", category: "标准资料" },
+     { name: "注塑冲公差表", url: "https://wiki.ijguo.cn/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%85%AC%E5%B7%AE%E8%A1%A8.pdf", desc: "查询相关标准", category: "实用工具" },
      { name: "色卡查询", url: "https://www.qtccolor.com/secaiku/", desc: "在线色卡工具", category: "实用工具" },
      { name: "标准件查询", url: "https://www.164580.com/biaozhun/", desc: "标准件查询工具", category: "实用工具" },
      { name: "百度脑图", url: "https://naotu.baidu.com/home", desc: "在线脑图工具", category: "实用工具" },
@@ -93,6 +93,7 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
 
 
