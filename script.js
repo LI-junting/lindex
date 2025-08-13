@@ -3,7 +3,7 @@ const navData = [
      // 实用工具网站
     
      { name: "京硅ERP", url: "https://yonsuite.diwork.com/#/login", desc: "在线ERP", category: "实用工具" },
-     { name: "老李笔记", url: "https://note.ijguo.cn/", desc: "在线笔记P", category: "实用工具" },     
+     { name: "老李笔记", url: "https://note.ijguo.cn/", desc: "在线笔记", category: "实用工具" },     
      { name: "弹簧计算", url: "http://www.leidream.com/yasuotanhuang.html", desc: "在线计算工具", category: "实用工具" },
      { name: "注塑冲公差表", url: "https://wiki.ijguo.cn/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%85%AC%E5%B7%AE%E8%A1%A8.pdf", desc: "查询相关标准", category: "实用工具" },
      { name: "色卡查询", url: "https://www.qtccolor.com/secaiku/", desc: "在线色卡工具", category: "实用工具" },
@@ -15,8 +15,7 @@ const navData = [
      { name: "IJGUO邮件", url: "https://mail.ijguo.com", desc: "自建邮局", category: "实用工具" }, 
      { name: ">Gmail", url: "https://accounts.google.com/b/0/AddMailService", desc: "谷歌邮件", category: "实用工具" }, 
      { name: "易搜-网盘搜索", url: "https://yiso.eu.org/", desc: "网盘搜索", category: "实用工具" }, 
-     { name: "Micro365开发中心", url: "https://developer.microsoft.com/en-us/microsoft-365/profile", desc: "文件共享", category: "实用工具" },   
-    
+     { name: "Micro365开发中心", url: "https://developer.microsoft.com/en-us/microsoft-365/profile", desc: "文件共享", category: "实用工具" },       
      { name: "皮皮直连", url: "https://www.ppzhilian.com/chat", desc: "即时通信", category: "实用工具" }, 
      { name: "Wormhole", url: "https://wormhole.app/", desc: "文件共享", category: "实用工具" }, 
 
@@ -107,6 +106,7 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
 
 
