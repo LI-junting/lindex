@@ -1,20 +1,28 @@
 // 导航数据（增加了 category 字段，可删减或修改）
 const navData = [
-     { name: "注塑冲公差表", url: "https://wiki.ijguo.cn/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%85%AC%E5%B7%AE%E8%A1%A8.pdf", desc: "查询相关标准", category: "标准资料" },
-     { name: "标准下载", url: "https://wiki.ijguo.cn/doku.php?id=%E6%A0%87%E5%87%86%E4%B8%8B%E8%BD%BD", desc: "标准下载站点", category: "标准资料" },
+     // 实用工具网站
      { name: "弹簧计算", url: "http://www.leidream.com/yasuotanhuang.html", desc: "在线计算工具", category: "实用工具" },
+     { name: "注塑冲公差表", url: "https://wiki.ijguo.cn/lib/exe/fetch.php?media=%E5%B8%B8%E7%94%A8%E5%85%AC%E5%B7%AE%E8%A1%A8.pdf", desc: "查询相关标准", category: "标准资料" },
      { name: "色卡查询", url: "https://www.qtccolor.com/secaiku/", desc: "在线色卡工具", category: "实用工具" },
      { name: "标准件查询", url: "https://www.164580.com/biaozhun/", desc: "标准件查询工具", category: "实用工具" },
      { name: "百度脑图", url: "https://naotu.baidu.com/home", desc: "在线脑图工具", category: "实用工具" },
      { name: "网址收藏", url: "https://dh.ijguo.cn/bookmarks.html", desc: "网址收藏夹", category: "实用工具" },    
      { name: "老李百科", url: "https://Wiki.ijguo.cn", desc: "电气知识百科", category: "实用工具" },   
      { name: "老李笔记", url: "https://www.ijguo.cn", desc: "技术博客", category: "实用工具" },  
-     { name: "IJGUO邮件", url: "https://mail.ijguo.com", desc: "自建邮局", category: "实用工具" },  
+     { name: "IJGUO邮件", url: "https://mail.ijguo.com", desc: "自建邮局", category: "实用工具" }, 
+     // 网盘网站
      { name: "123云盘", url: "https://www.123pan.com", desc: "云盘站点", category: "网盘工具" },
-     { name: "私有云盘", url: "https://pan.ijguo.cn", desc: "私有云盘", category: "网盘工具" },     
+     { name: "私有云盘", url: "https://pan.ijguo.cn", desc: "私有云盘", category: "网盘工具" },   
+     // 音视频网站
      { name: "YouTube", url: "https://www.youtube.com", desc: "视频站点", category: "音视频" },
      { name: "观影 GYING", url: "https://www.gying.in/user/login/", desc: "视频站点", category: "音视频" },
+     // 资源下载网站
      { name: "ITELLYOU", url: "https://msdn.itellyou.cn/", desc: "资源站点", category: "资源下载" },
+     { name: "Windows系统下载仓", url: "https://hellowindows.cn/", desc: "资源站点", category: "资源下载" },
+     { name: "标准下载", url: "https://wiki.ijguo.cn/doku.php?id=%E6%A0%87%E5%87%86%E4%B8%8B%E8%BD%BD", desc: "标准下载站点", category: "资源下载" },
+     
+     
+            
      
      
 ];
@@ -79,6 +87,7 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
 
 
