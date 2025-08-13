@@ -13,7 +13,7 @@ const navData = [
      { name: "老李百科", url: "https://Wiki.ijguo.cn", desc: "电气知识百科", category: "实用工具" },   
      { name: "老李博客", url: "https://www.ijguo.cn", desc: "技术博客", category: "实用工具" },  
      { name: "IJGUO邮件", url: "https://mail.ijguo.com", desc: "自建邮局", category: "实用工具" }, 
-     { name: ">Gmail", url: "https://accounts.google.com/b/0/AddMailService", desc: "谷歌邮件", category: "实用工具" }, 
+     { name: "Gmail", url: "https://accounts.google.com/b/0/AddMailService", desc: "谷歌邮件", category: "实用工具" }, 
      { name: "易搜-网盘搜索", url: "https://yiso.eu.org/", desc: "网盘搜索", category: "实用工具" }, 
      { name: "Micro365开发中心", url: "https://developer.microsoft.com/en-us/microsoft-365/profile", desc: "文件共享", category: "实用工具" },       
      { name: "皮皮直连", url: "https://www.ppzhilian.com/chat", desc: "即时通信", category: "实用工具" }, 
@@ -106,6 +106,7 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
 
 
