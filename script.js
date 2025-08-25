@@ -1,7 +1,6 @@
 // 导航数据（增加了 category 字段，可删减或修改）
 const navData = [
-     // 实用工具网站
-    
+     // 实用工具网站    
      { name: "京硅ERP", url: "https://yonsuite.diwork.com/#/login", desc: "在线ERP", category: "实用工具" },
      { name: "老李笔记", url: "https://note.ijguo.cn/", desc: "在线笔记", category: "实用工具" },     
      { name: "弹簧计算", url: "http://www.leidream.com/yasuotanhuang.html", desc: "在线计算工具", category: "实用工具" },
@@ -17,23 +16,18 @@ const navData = [
      { name: "易搜-网盘搜索", url: "https://yiso.eu.org/", desc: "网盘搜索", category: "实用工具" }, 
      { name: "Micro365开发中心", url: "https://developer.microsoft.com/en-us/microsoft-365/profile", desc: "文件共享", category: "实用工具" },       
      { name: "皮皮直连", url: "https://www.ppzhilian.com/chat", desc: "即时通信", category: "实用工具" }, 
-     { name: "Wormhole", url: "https://wormhole.app/", desc: "文件共享", category: "实用工具" }, 
-
-     
+     { name: "Wormhole", url: "https://wormhole.app/", desc: "文件共享", category: "实用工具" },      
      
      // 网盘网站
      { name: "123云盘", url: "https://www.123pan.com", desc: "云盘站点", category: "网盘工具" },
      { name: "私有云盘", url: "https://pan.ijguo.cn", desc: "私有云盘", category: "网盘工具" },   
      { name: "OneDrive-5T", url: "https://lijunting-my.sharepoint.com/my", desc: "微软云盘", category: "网盘工具" }, 
      { name: "OneDrive-15G", url: "https://onedrive.live.com/?id=root&cid=93340FA5E46D71D9", desc: "微软云盘", category: "网盘工具" }, 
-       
-
-
+     
      // 音视频网站
      { name: "YouTube", url: "https://www.youtube.com", desc: "视频站点", category: "音视频" },
      { name: "观影 GYING", url: "https://www.gying.in/user/login/", desc: "视频站点", category: "音视频" },
-     { name: "剪映专业版", url: "https://www.capcut.cn/", desc: "视频站点", category: "音视频" },
-      
+     { name: "剪映专业版", url: "https://www.capcut.cn/", desc: "视频站点", category: "音视频" },      
      
      // 资源下载网站
      { name: "ITELLYOU", url: "https://msdn.itellyou.cn/", desc: "资源站点", category: "资源下载" },
@@ -41,9 +35,6 @@ const navData = [
      { name: "标准下载", url: "https://wiki.ijguo.cn/doku.php?id=%E6%A0%87%E5%87%86%E4%B8%8B%E8%BD%BD", desc: "标准下载站点", category: "资源下载" },
      { name: "趣头条视频下载", url: "https://quduopai.iiilab.com/", desc: "资源站点", category: "资源下载" },
      { name: "YouTube下载", url: "https://notube.net/en/youtube-app-v163", desc: "资源站点", category: "资源下载" },
-            
-     
-     
 ];
 
 // 渲染导航项
@@ -106,6 +97,7 @@ function setupSearch() {
 renderNavItems(navData);
 renderCategories();
 setupSearch();
+
 
 
 
